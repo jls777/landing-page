@@ -14,7 +14,7 @@ body {
 .header-container {
   background-color: #1f2937;
   /* border: 2px solid pink; */
-}
+} 
 
 .header {
   display: flex;
@@ -23,6 +23,7 @@ body {
   padding: 15px;
   margin: 0 auto;
   color: white;
+
 }
 
 /* .header-logo {
@@ -39,7 +40,7 @@ a {
   text-decoration: none;
   color: white;
 }
-/* ------------------ */
+/* --------section1---------- */
 
 .section-one-container {
   background-color: #1f2937;
@@ -50,7 +51,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 100px;
+  padding: 0 77px;
 }
 
 .imageone {
@@ -64,6 +65,39 @@ a {
   justify-content: space-between;
   width: 500px;
 }
+/* ------section2----------- */
+.imagetwo {
+  width: 100px;
+  height: auto;
+}
+
+.info {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.group-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  gap: 50px;
+  flex-wrap: wrap;
+  /* border: 1px solid pink; */
+}
+
+.pic1 {
+  text-align: center;
+  /* border: 1px solid yellow; */
+}
+
+.info-pic {
+  font-size: 10px;
+  width: 100px;
+
+}
+
+
 
 
 
