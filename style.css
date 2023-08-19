@@ -25,9 +25,9 @@ body {
   color: white;
 }
 
-.header-logo {
+/* .header-logo {
 
-}
+} */
 
 .links {
   list-style-type: none;
@@ -39,4 +39,31 @@ a {
   text-decoration: none;
   color: white;
 }
+/* ------------------ */
+
+.section-one-container {
+  background-color: #1f2937;
+}
+
+.section-one {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 100px;
+}
+
+.imageone {
+  width: 300px;
+  height: auto;
+}
+
+.discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+
+
 
