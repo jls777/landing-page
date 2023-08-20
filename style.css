@@ -6,13 +6,16 @@
 }
  
 body {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 /* ---------header----------- */
 
 .header-container {
   background-color: #1f2937;
+  flex-grow: 1;
   /* border: 2px solid pink; */
 } 
 
@@ -23,7 +26,6 @@ body {
   padding: 15px;
   margin: 0 auto;
   color: white;
-
 }
 
 .links {
@@ -54,7 +56,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 0 77px;
+  padding: 77px 77px;
 }
 
 .imageone {
@@ -106,6 +108,7 @@ a {
 .section-three {
   width: 500px;
   margin: 0 auto;
+  padding: 77px;
 }
 
 .person {
@@ -140,7 +143,15 @@ a {
   border-radius: 8px;
   border: 1px solid white;
 }
+/* --------footer------------ */
 
+.footer {
+  color: white;
+  font-size: 10px;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px 0;
+}
 
 
 
